@@ -1,0 +1,106 @@
+/* claim status icon bar */
+
+.claims{
+    font-size: 90%;
+    border: 1px solid #e8e9ed;
+    padding: 10px 30px;
+}
+
+.claims h2{
+    font-size: 125%;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+.claims p{
+    margin: 0px auto;
+}
+
+.claim-status{
+    position: relative;
+    font-size: 15px;
+    margin-right: 30px;
+    width: 210px;
+    height: 120px;
+    border-top: 3px solid;
+    box-shadow: 1px 1px 6px #888888;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+/* font-family: 'Courier New', Courier, monospace; */
+
+.claims-list{
+    padding: 0px;
+    display: flex;
+}
+
+.claim-insu-type{
+    font-size: 70%;
+    color:#888888;
+}
+
+/* .claim-insu-id{
+    clear: right;
+} */
+
+.claim-insu-amt{
+    clear: right;
+    padding: 10px 0px;
+}
+
+/* progress bar */
+.claim-status .progress-bar{
+    padding: 0px;
+    /* margin: 0px; */
+    /* padding-bottom: 0px; */
+}
+
+.claim-status .progress-bar li{
+    font-size: 50%;
+    font-weight: bolder;
+    color: #bebebe;
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    list-style: none;
+}
+
+.progress-bar li:before{
+    content:" ";
+    width: 5px;
+    height: 5px;
+    border: 2px solid #bebebe;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    line-height: 27px;
+    background: #bebebe;
+    color: #bebebe;
+    text-align: center;
+    font-weight: bold;
+}
+
+.progress-bar li:after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 3px;
+    background: #979797;
+    top: 3px;
+    left: -50%;
+    z-index: -1;
+}
+  
+.progress-bar li:first-child::after{
+    content: none;
+}
+
+.progress-bar li.active::before{
+    background: #3aac5d;
+    border-color: #3aac5d;
+}
+
+.progress-bar li.active::after{
+    background: #3aac5d;
+    border-color: #3aac5d;
+}

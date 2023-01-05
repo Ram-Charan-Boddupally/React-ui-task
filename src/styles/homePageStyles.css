@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bolder; */
+    font-size: 90%;
+}
+
+.col-1,.col-3{
+    width: max-content;
+}
+
+.col-2{
+    width: 65%;
+}
+
+/* styling for column 2 elements */
+.row{
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #e8e9ed;
+    display: flex;
+}
+
+.row-2{
+    position: relative;
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+
+.float-left{
+    position: absolute;
+    left: 0px;
+}
+.float-right{
+    position: absolute;
+    right: 0px;
+}
+
+.insurence-logo{
+    width: 705px;
+    height: 150px;
+    padding: 15px 25px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.insurence-info{
+    width: 45%;
+}
+
+.img-logo{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    top: -127px;
+    left: 380px;
+}
+
+.logo-title{
+    color: white;
+    font-size: 180%;
+    margin: 0px;
+}
+
+.logo-desc{
+    color: white;
+    font-size: 120%;
+    width: 90%;
+    margin: 10px 0px 0px;
+    font-weight: 100;
+}
+
+.consultations{
+    padding: 0px 10px;
+    height: 250px;
+    border: 1px solid #e8e9ed;
+}
+
+.consultation-img{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    display: block;
+} 
+
+.labs-consultation{
+    background-image: url("../media/images/labs-consultation.jpg");
+    float: left;
+}
+
+.doctor-consultation{
+    background-image: url("../media/images/doctor-consultation.jpg");
+    float: right;
+}
+
+.therapy-consultation{
+    background-image: url("../media/images/therapy-consultation.jpg");
+    float: right;
+}

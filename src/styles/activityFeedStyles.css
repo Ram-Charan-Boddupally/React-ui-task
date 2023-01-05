@@ -1,0 +1,29 @@
+.row.feed{
+    padding-top: 0px;
+    font-size: 80%;
+    width: 225px;
+}
+
+.activity-feed{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;   
+    font-weight: bold;
+}
+
+.feed-item{
+    display:flex;
+    padding: 2px;
+    height: 40px;
+    margin: 30px 0px;
+    font-size: 95%;
+}
+
+.feed-item .feed-date{
+    /* margin-left: 38px; */
+    display: block;
+    font-size: 75%;
+    margin-top: 5px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}

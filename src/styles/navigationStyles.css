@@ -1,0 +1,39 @@
+.navigation-header{
+    width: 100%;
+    padding: 0px 50px;
+    border-bottom: 2px solid #e8e9ed;
+    display: flex;
+    position: relative;
+}
+
+.navigation-header .title{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    color: #0f76d8;
+}
+
+.navigation-header img{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;   
+}
+
+.user-navigation{
+    position: absolute;
+    right: 40px;
+    top: -15px;
+}
+
+.user-name{
+    background-color: #f2f7fb;
+    padding: 10px 0px 10px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.user-name img{
+    position: relative;
+    border-radius: 50px;
+    top: 15px;
+}

@@ -1,0 +1,65 @@
+
+.side-menu-bar{
+    width: max-content;
+    height: 100vh;
+    padding: 15px 20px;
+    border-right: 2px solid #e8e9ed;
+}
+
+.menu-tile{
+    display: flex;
+    padding: 15px 8px;
+    color: #a2a9b5;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.menu-tile span{
+    margin-left: 15px;
+}
+
+.menu-tile:hover i{
+    color: blue;
+}
+
+.menu-tile:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+/* account balance and topup menu bar */
+
+.top-up{
+    position: relative;
+    margin-top: 50px;
+    padding-left: 8px;
+}
+
+.top-up h3{
+    margin-bottom: 5px;
+}
+
+.top-up p{
+    margin: 8px auto;
+    font-size: 12px;
+    color: #acb0b7;
+}
+
+.acc-bal{
+    background-color: #f8f8fc;
+    padding: 5px 10px;
+}
+
+.acc-bal .cur-bal-heading{
+    color: #4a5264;
+}
+
+.acc-bal h1{
+    margin: 5px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.acc-bal h1 span{
+    margin-left: 10px;
+}

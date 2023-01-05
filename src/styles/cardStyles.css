@@ -1,0 +1,79 @@
+/* card display */
+
+.cards-list{
+    padding: 15px;
+    padding-right: 0px;
+    width:max-content;
+    position: relative;
+    margin-right: 0px;
+}
+
+
+.cards-list h3, .cards-list p:first-of-type{
+    margin: 10px 0px 0px;
+}
+
+.user-card{
+    font-weight: normal;
+    font-size: 80%;
+    margin: 15px;
+    width: 250px;
+    height: 40%;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-sizing: content-box;
+
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    color: whitesmoke;
+    margin-bottom: 25px;
+    box-shadow: 5px 10px 15px #565c62;
+}
+
+.user-card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgb(14, 213, 239);
+}
+
+.user-card-type{
+    font-size: 75%;
+    color: #e1e5ea;
+}
+
+.user-card-type-img{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+
+.user-card-number{
+    font-size: 160%;
+    margin-top: 5px;
+    font-stretch:ultra-expanded;
+}
+
+.user-card-balance{
+    font-size: 200%;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.user-card-expiry{
+    position: absolute;
+    right: 35px;
+    bottom: 10px;
+    font-size: 75%;
+}
+
+
+.user-card.add-cards{
+    background-color: #1176da;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.cards-list .float-right{
+    right: 30px;
+    color: #1c7fda;
+}
